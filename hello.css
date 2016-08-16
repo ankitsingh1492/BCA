@@ -1,0 +1,182 @@
+/***********************
+page styles
+***********************/
+
+body {
+margin: 0;
+ background: #565656;  
+font-family: Raleway;
+font-size: 0.85 em;
+}
+
+img{
+opacity:0.6;
+height:200px;
+width:200px;
+display:inline-block;
+position:relative;
+overflow:hidden;
+-moz-border-radius:100px;
+border-radius: 100px;
+-webkit-border-radius:100px;
+box-shadow: 10px 10px 5px #888888;
+background: #6AB8CC;
+}
+
+img:hover{
+ opacity:1.0;
+}
+
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  
+}
+
+a:hover{
+  text-decoration: none;
+  font-size: 1.4em;
+  font-style: bold;
+  color: white;
+}
+
+p{
+  font-size: 1.9em;
+  color : white;
+  font: Raleway;
+  padding:10px;
+  padding-left: 70px;
+}
+
+
+/***********************
+Navigation
+***********************/
+
+#nav{
+  list-style:none; 
+  padding:0;
+  float:right;
+  margin: 40px 0;
+}
+
+#nav li{
+  float: left;
+  margin-right:14px;
+  font-size: 1.4em;
+  font-weight:bold;
+}
+
+#nav a{
+  color:white;
+}
+
+/***********************
+Header
+***********************/
+
+#header{
+  font-style: none;
+  float: left;
+  margin:20px 0;
+}
+
+#header h1{
+  color: white;
+  font: Raleway;
+  font-size: 3em;
+  color: white;
+  margin: 0;
+}
+
+#header h2{
+ margin: 0;
+ color: #00CC99; 
+ font-size:1.2em;
+}
+
+
+
+
+/***********************
+Content
+***********************/
+
+
+#content{
+  float:left;
+  height: 400 px;
+  width:950px;
+  margin-top:30px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px #888888;
+  }
+
+
+#content .student{
+  float:right;
+  padding:10px;
+  height:400px;
+  width:450px;
+  border-left:2px solid #ccc;
+  
+}
+
+#content .teacher{
+
+  float:left;
+  padding:10px;
+  height:400px;
+  width:450px;
+}
+
+#logo {
+ 
+ padding-left:100px;
+}
+
+
+#logotwo {
+ 
+ padding-left:100px;
+}
+
+
+/***********************
+Footer
+***********************/
+
+
+
+footer{
+	position:relative;
+	height:90px;
+	clear:both;
+	width:100%;
+	padding-top: 10px;
+
+	}
+	
+	
+.container{
+   float: right;
+   margin-top:100px;
+   padding:10px;
+   padding-bottom:20px;
+}
+	
+
+/***********************
+aboutus styles
+***********************/
+
+#aboutus{
+  float: left;
+  margin-top: 70px;
+  background-color: #0099FF;
+  padding:20px;
+   border: 2px solid #ccc;
+    border-radius: 25px;
+}

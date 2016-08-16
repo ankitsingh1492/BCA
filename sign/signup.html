@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>	
+<head>
+	<title>SignUP</title>
+	<link rel="stylesheet" href="style.css">
+</head>	
+<body>	
+  <div id ="wrapper">
+  	<div id ="header">
+	 <h1>Kyurious Minds </h1>
+	 <h2>"Ask.Learn.Repeat "</h2>
+ 	 </div>
+	 
+    
+     <ul id="nav">
+     <li><a href="../home.html">Home</a></li>
+     <li><a href="signup.html">Sign up </a></li>
+	 <li><a href="../login/login.php">login </a></li>
+	 </ul>
+
+	 <div id="formcontainer" align="center">
+	 	<h2>Sign Up Below!!</h2>
+	 	<form action ="sign.php" method="POST">
+	 		<input type = "text" name="fname" size= "30" placeholder="First name"/><br><br>
+	 		<input type = "text" name="lname" size= "30" placeholder="Last name"/><br><br>
+	 		<input type = "text" name="username" size= "30" placeholder="User name"/><br><br>
+	 		<input type = "password" name="password" size= "30" placeholder="Password"/><br><br>
+	 		<input type = "password" name="password2" size= "30" placeholder="password again"/><br><br>
+	 		<input type = "text" name="email" size= "30" placeholder="Email"/><br><br>
+	 		<input type = "text" name="reg_id" size= "30" placeholder="Unique ID"/><br><br>
+	 		Register As:
+	 		<input type = "radio" name="designation" value="1" checked ="checked">Teacher
+	 		<input type = "radio" name="designation" value="2">Student<br><br>
+	 		<button class="btnExample" type="submit" value="Submit"/>Submit</button><br><br>
+	 	</form>	
+	 </div>
+
+</div>	
+</body>
+</html>

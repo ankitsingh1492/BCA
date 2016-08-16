@@ -1,0 +1,128 @@
+/***********************
+page styles
+***********************/
+
+body {
+margin: 0;
+background: #565656;
+font-family: Raleway;
+font-size: 0.85em;
+}
+
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  
+}
+
+a:hover{
+  text-decoration: none;
+  font-size: 1.4em;
+  font-style: bold;
+  color: white;
+}
+
+
+
+/***********************
+Navigation
+***********************/
+
+#nav{
+  color: white;
+  list-style:none; 
+  padding:0;
+  float:right;
+  margin: 40px 0;
+}
+
+#nav li{
+  color: white;
+  float: left;
+  margin-right:14px;
+  font-size: 1.4em;
+  font-weight:bold;
+}
+
+#nav a {
+  color:white;
+}
+/***********************
+Header
+***********************/
+
+#header{
+
+  float: left;
+  margin:20px 0;
+}
+
+#header h1{
+  
+
+  font: Raleway;
+  color:white;
+  font-size: 3em;
+  margin: 0;
+}
+
+#header h2{
+ margin: 0;
+ color: #00CC99; 
+ font-size:1.2em;
+}
+
+/***********************
+Form
+***********************/
+
+#formcontainer{
+    font: Raleway ;
+    width: 400px;
+    height: 450px;
+    background-color: #0099FF;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    padding-bottom:  10px; 
+    margin: auto;
+    margin-bottom: 50px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    }
+
+#formcontainer h2{
+  color: white;
+}    
+
+input[type="text"]:hover{
+border: 1px solid #FF9933
+}
+
+
+
+input[type="password"]:hover{
+border: 1px solid #FF9933
+}
+
+ 
+.btnExample {
+  padding: 8px;
+  color: white;
+  background: #00CC99;
+  font-weight: bold;
+  border: 1px solid #00CC99;
+   border-radius: 10px;
+}
+ 
+.btnExample:hover {
+  color: #FFF;
+  background: #900;
+}
+.btnExample:hover {
+  cursor: pointer; 
+}
